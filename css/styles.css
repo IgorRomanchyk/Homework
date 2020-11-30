@@ -1,5 +1,7 @@
 html, body {
-    width: 1400px;    
+    width: 1400px;   
+    margin: 0px;
+    padding: 0px; 
 }
 
 *{
