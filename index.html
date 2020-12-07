@@ -1,46 +1,179 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why this is awesome</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css"> 
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div class="title">
-       WHY THIS IS AWESOME
-    </div>
-    <div class="border">
-        <img src="img/border.png" alt="border">
-    </div>
-    <div class="subtitle">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </div>
-    <section class="card">
-        <div class="card-block">
-            <div class="card-block__item">
-                <div class="card-block__title"><img src="img/bulb.png" alt="bulb"></div>
-                <div class="card-block__subtitle">Thoughtful Design</div>
-                <div class="card-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+<section class="awesome">
+    <div class="container">
+        <h2 class="title">why this is awesome</h2>
+        <div class="subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+        <div class="awesome-card">
+            <div class="awesome-card__item">
+                <div class="awesome-card__img">
+                    <img src="/image/bulb.png" alt="bulb">
+                </div>
+                <h3 class="awesome-card__title">Thoughtful Design</h3>
+                <p class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Aenean euismod bibendum laoreet. Proin gravida 
-                    dolor sit amet lacus accumsan et viverra.</div>
+                    dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <div class="card-block__item">
-                <div class="card-block__title"><img src="img/keyboard.png" alt=""></div>
-                <div class="card-block__subtitle">Well Crafted</div>
-                <div class="card-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+            <div class="awesome-card__item">
+                <div class="awesome-card__img">
+                    <img src="/image/keyboard.png" alt="keyboard">
+                </div>
+                <h3 class="awesome-card__title">Well Crafted</h3>
+                <p class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Aenean euismod bibendum laoreet. Proin gravida 
-                    dolor sit amet lacus accumsan et viverra.</div>
+                    dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <div class="card-block__item">
-                <div class="card-block__title"><img src="img/lightning.png" alt=""></div>
-                <div class="card-block__subtitle">Easy to Customize</div>
-                <div class="card-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+            <div class="awesome-card__item">
+                <div class="awesome-card__img">
+                    <img src="/image/lightning.png" alt="lightning">
+                </div>
+                <h3 class="awesome-card__title">Easy to Customize</h3>
+                <p class="awesome-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Aenean euismod bibendum laoreet. Proin gravida 
-                    dolor sit amet lacus accumsan et viverra.</div>
+                    dolor sit amet lacus accumsan et viverra.</p>
             </div>
         </div>
-
-    </section>
+    </div>
+</section>
+<section class="pricing">
+    <div class="container">
+        <h2 class="title">pricign options</h2>
+        <div class="subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+        <div class="pricing-card">
+            <ul class="pricing-card__item">
+                <li class="pricing-item__type">Basic</li>
+                <li class="pricing-item__price"><span>$</span>0</li>
+                <li class="pricing-item__period">Free for Life</li>
+                <li class="pricing-item">1 gb of space</li>
+                <li class="pricing-item">10 gb of bandwidth</li>
+                <li class="pricing-item">3 websites</li>
+                <li class="pricing-item">Basic Customization</li>
+                <li class="pricing-item">wordpress integration</li>
+                <li class="pricing-item">email support</li>
+            </ul>
+            <ul class="pricing-card__item">
+                <li class="pricing-item__type">Proffesional</li>
+                <li class="pricing-item__price"><span>$</span>19</li>
+                <li class="pricing-item__period">Monthly Payment</li>
+                <li class="pricing-item__popular">OUR MOST POPULAR</li>
+                <li class="pricing-item">5 gb of space</li>
+                <li class="pricing-item">50 gb of bandwidth</li>
+                <li class="pricing-item">12 websites</li>
+                <li class="pricing-item">Advanced Customization</li>
+                <li class="pricing-item">wordpress integration</li>
+                <li class="pricing-item">email support</li>
+            </ul>
+            <ul class="pricing-card__item">
+                <li class="pricing-item__type">Proffesional</li>
+                <li class="pricing-item__price"><span>$</span>70</li>
+                <li class="pricing-item__period">Monthly Payment</li>
+                <li class="pricing-item">5 gb of space</li>
+                <li class="pricing-item">50 gb of bandwidth</li>
+                <li class="pricing-item">12 websites</li>
+                <li class="pricing-item">Advanced Customization</li>
+                <li class="pricing-item">wordpress integration</li>
+                <li class="pricing-item">email support</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="customers">
+    <div class="container">
+        <h2 class="title">What our customers are saying</h2>
+        <div class="subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+        <div class="customers-card">
+            <div class="customers-card__item">
+                <div class="customers-card__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+                <div class="customer-card__information">
+                    <img src="/image/customer.png" alt="customer">
+                    <div class="customer-card__info">
+                        <div class="customer-card__name">Jeremy H.</div>
+                        <div class="customer-card__position">Manager</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customers-card__item">
+                <div class="customers-card__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+                <div class="customer-card__information">
+                    <img src="/image/customer.png" alt="customer">
+                    <div class="customer-card__info">
+                        <div class="customer-card__name">Jeremy H.</div>
+                        <div class="customer-card__position">Manager</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customers-card__item">
+                <div class="customers-card__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+                <div class="customer-card__information">
+                    <img src="/image/customer.png" alt="customer">
+                    <div class="customer-card__info">
+                        <div class="customer-card__name">Jeremy H.</div>
+                        <div class="customer-card__position">Manager</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="design">
+    <div class="design-container">
+        <h2 class="design-title">STYLISH AXURE DESIGN</h2>
+        <div class="design-subtext">
+            Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+        </div>
+        <div class="download">
+            <div class="download-href"><a href="">Download</a></div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <ul class="footer-card__item">
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+            <li class="footer-item"><img src="/image/facebook.png" alt=""></li>
+        </ul>
+        <div class="footer-card__themes">© 2015 Axure Themes</div>
+    </div>
+</footer>    
 </body>
 </html>
