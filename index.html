@@ -11,44 +11,106 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<section class="media">
-    <div class="media-container">
-        <div class="media-title">
-            <div class="media-title__text">Social Media</div>
-            <div class="media-title__subtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean euismod bibendum laoreet.
+
+<div class="wrapper">
+
+<header class="header">
+    <div class="container">
+        <div class="header-main">
+            <div class="header-img">
+                <img src="/image/axit.png" alt="axit">
+            </div>
+            <nav class="header-card">
+                <ul class="header-card__list">
+                    <li class="header-card__item"><a href="#features-title">Features</a></li>
+                    <li class="header-card__item"><a href="#awesome-title">About</a></li>
+                    <li class="header-card__item"><a href="#pricing-title">Pricing</a></li>
+                    <li class="header-card__item"><a href="#customers-title">Reviews</a></li>
+                    <li class="header-card__item"><a href="#contact-title">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="features">
+    <div class="container containerfull">
+        <div class="features-wrapper">
+            <div class="features-template">
+                <div class="features-img">
+                    <img src="/image/baxit.png" alt="axit">
+                </div>
+                <h1 id="features-title">MODERN AXURE TEMPLATE
+                    FOR BEAUTIFUL PROTOTYPES
+                </h1>
+                <div class="features-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et viverra justo commodo.
+                </div>
+                <a href="#" class="features-download">Download</a>
+            </div>
+            <div class="features-version">
+                <h2 class="features-title">Try Your <span class="free">FREE</span> Trial Today</h2>
+                <form action="#"  method="GET" class="features-form">
+                    <ul class="features-list">
+                        <li class="features-list__item">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name='user_name' placeholder="Name">
+                        </li>
+                        <li class="features-list__item">
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail" name='user_mail' placeholder="Email">
+                        </li>
+                        <li class="features-list__item">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name='user_password' placeholder="Password">
+                        </li>
+                    </ul>
+                </form>
+                <a href="#" class="features-link">Get Started</a>
             </div>
         </div>
-        <ul class="media-icons">
-            <li class="media-item">
-                <i class="fab fa-facebook-f"></i>
-            </li>
-            <li class="media-item">
-                <i class="fab fa-twitter"></i>
-            </li>
-            <li class="media-item">
-                <i class="fab fa-google-plus-g"></i>
-            </li>
-            <li class="media-item">
-                <i class="fab fa-pinterest"></i>
-            </li>
-            <li class="media-item">
-                <i class="fab fa-instagram"></i>
-            </li>
-            <li class="media-item">
-                <i class="fab fa-stumbleupon"></i>
-            </li>
-            <li class="media-item">
-                <i class="fas fa-wifi"></i>
-            </li>
-        </ul>
-        
+    </div>
+</section>
+<section class="media">
+    <div class="container">
+        <div class="media-card">
+            <div class="media-title">
+                <div class="media-title__text">Social Media</div>
+                <div class="media-title__subtext">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet.
+                </div>
+            </div>
+            <ul class="media-icons">
+                <li class="media-icons__item">
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fab fa-google-plus-g"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fab fa-pinterest"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fab fa-stumbleupon"></i>
+                </li>
+                <li class="media-icons__item">
+                    <i class="fas fa-wifi"></i>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
 <section class="awesome">
-    <div class="awesome-container">
-        <h2 class="awesome-title">why this is awesome</h2>
+    <div class="container">
+        <h2 id="awesome-title">why this is awesome</h2>
         <div class="awesome-subtext">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </div>
@@ -84,8 +146,8 @@
     </div>
 </section>
 <section class="pricing">
-    <div class="pricing-container">
-        <h2 class="pricing-title">pricign options</h2>
+    <div class="container">
+        <h2 id="pricing-title">pricign options</h2>
         <div class="pricing-subtext">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </div>
@@ -103,7 +165,7 @@
             </ul>
             <ul class="pricing-card__item">
                 <li class="pricing-item__type">Proffesional</li>
-                <li class="pricing-item__price"><span>$</span>19</li>
+                <li class="pricing-item__price"><span class="dolar">$</span>19</li>
                 <li class="pricing-item__period">Monthly Payment</li>
                 <li class="pricing-item__popular">OUR MOST POPULAR</li>
                 <li class="pricing-item">5 gb of space</li>
@@ -128,8 +190,8 @@
     </div>
 </section>
 <section class="customers">
-    <div class="customers-container">
-        <h2 class="customers-title">What our customers are saying</h2>
+    <div class="container">
+        <h2 id="customers-title">What our customers are saying</h2>
         <div class="customers-subtext">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </div>
@@ -191,38 +253,70 @@
         <div class="design-subtext">
             Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
         </div>
-        <div class="download">
-            <div class="download-href"><a href="">Download</a></div>
+        <a href="#" class="design-download">Download</a>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <h2 id="contact-title">CONTACT US</h2>
+            <div class="contact-subtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <form action="#"  method="GET" class="contact-form">
+                <ul class="contact-list">
+                    <li class="contact-list__item">
+                        <label for="cname">Name</label>
+                        <input type="text" id="cname" name='user_name' placeholder="Name">
+                    </li>
+                    <li class="contact-list__item">
+                        <label for="cmail">Email</label>
+                        <input type="email" id="cmail" name='user_mail' placeholder="Email">
+                    </li>
+                    <li class="contact-list__item">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name='user_subject' placeholder="Subject">
+                    </li>
+                </ul>
+                <div class="contact-message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="student_bio" placeholder="Message"></textarea>
+                </div>
+            </form>
+            <a href="#" class="contact-download">Send Message</a>
         </div>
     </div>
 </section>
-<footer>
-    <section class="footer">
+<footer class="footer">
+    <div class="footer-container">
         <ul class="footer-icons">
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-facebook-f"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-twitter"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-google-plus-g"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-pinterest"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-instagram"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fab fa-stumbleupon"></i>
             </li>
-            <li class="footer-item">
+            <li class="footer-icons__item">
                 <i class="fas fa-wifi"></i>
             </li>
         </ul>
         <div class="footer-themes">© 2015 Axure Themes</div>
-    </section>
+    </div>
 </footer>    
+
+</div>
+
 </body>
 </html>
