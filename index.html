@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Why this is awesome</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap"        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
     <link rel="stylesheet" href="/css/styles.css">
+    <title>Why this is awesome</title>
 </head>
 <body>
 
@@ -50,7 +50,7 @@
                 <a href="#" class="features-download">Download</a>
             </div>
             <div class="features-version">
-                <h2 class="features-title">Try Your <span class="free">FREE</span> Trial Today</h2>
+                <h2 class="features-headline">Try Your <span class="free">FREE</span> Trial Today</h2>
                 <form action="#"  method="GET" class="features-form">
                     <ul class="features-list">
                         <li class="features-list__item">
@@ -107,6 +107,28 @@
             </ul>
         </div>
     </div>
+</section>
+<section class="tabs">
+    <div class="container">
+        <div class="tabs-wrapper">
+                <ul class="tabs-list">
+                    <li class="tabs-list__item">Tab 1</li>
+                    <li class="tabs-list__item">Tab 2</li>
+                    <li class="tabs-list__item">Tab 3</li>
+                </ul>
+                <div class="tabs-text">
+                    <h2 class="tabs-text__title">Tabs with soft transitioning effect.</h2>
+                    <p class="tabs-text__subtitle">Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                    </p>
+                    <!-- <p class="tabs-text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>     -->  
+                    <a href="#" class="tabs-download">Download</a>                
+                </div>
+                <div class="tabs-img">
+                    <img src="/image/city.png" alt="city">
+                </div>
+        </div>
+    </div> 
 </section>
 <section class="awesome">
     <div class="container">
@@ -264,23 +286,25 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </div>
             <form action="#"  method="GET" class="contact-form">
+                <div class="form-wrapper">
                 <ul class="contact-list">
                     <li class="contact-list__item">
                         <label for="cname">Name</label>
-                        <input type="text" id="cname" name='user_name' placeholder="Name">
+                        <input class="contact-input" type="text" id="cname" name='user_name' placeholder="Name">
                     </li>
                     <li class="contact-list__item">
                         <label for="cmail">Email</label>
-                        <input type="email" id="cmail" name='user_mail' placeholder="Email">
+                        <input class="contact-input" type="email" id="cmail" name='user_mail' placeholder="Email">
                     </li>
                     <li class="contact-list__item">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" name='user_subject' placeholder="Subject">
+                        <input class="contact-input" type="text" id="subject" name='user_subject' placeholder="Subject">
                     </li>
                 </ul>
                 <div class="contact-message">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="student_bio" placeholder="Message"></textarea>
+                    <label class="contact-label" for="message">Message</label>
+                    <textarea class="contact-textarea" id="message" name="user_message" rows="7" cols="1"></textarea>
+                </div>
                 </div>
             </form>
             <a href="#" class="contact-download">Send Message</a>
